@@ -32,6 +32,10 @@ body {
   color: currentColor;
 }
 
+img {
+  display: block;
+}
+
 /* header & footer style */
 .header {
   background-color: #ffffff;
