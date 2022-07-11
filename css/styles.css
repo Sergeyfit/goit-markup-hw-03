@@ -18,6 +18,8 @@ body {
 /* прибираємо точки списку */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* додаємо курсор */
@@ -55,7 +57,14 @@ img {
 /* header & footer style */
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo,
 .footer-logo {
   font-family: Raleway;
@@ -64,6 +73,21 @@ img {
   color: var(--brand-txt-col);
 }
 
+.header-logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-nav {
+  margin-right: auto;
+}
+
+.header-list,
+.contact-list {
+  display: flex;
+  gap: 50px;
+}
 .logo-word {
   line-height: 1.7;
   color: #000000;
@@ -108,6 +132,10 @@ img {
   background-color: #2f303a;
 }
 
+.section {
+  padding-top: 94px;
+}
+
 .hero-title {
   color: var(--footer-txt-col);
   font-weight: 900;
@@ -136,6 +164,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .skils-text {
@@ -149,12 +178,16 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .teams-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+  margin-bottom: 10px;
 }
 
 .teams-text {
@@ -168,6 +201,10 @@ img {
   font-size: 14px;
   font-style: normal;
   color: var(--white-background-col);
+}
+
+.prt-box-subtitle {
+  margin-bottom: 10px;
 }
 
 .prt-btn {
