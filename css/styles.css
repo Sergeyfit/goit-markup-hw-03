@@ -28,7 +28,8 @@ body {
 
 /* додаємо курсор */
 .prt-btn,
-.hero-btn {
+.hero-btn,
+.prt-item-desc {
   cursor: pointer;
 }
 
