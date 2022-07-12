@@ -5,6 +5,9 @@
   --brand-txt-col: #2196f3;
   --footer-txt-col: #ffffff;
   --background2: #f5f4fa;
+
+  --border-header-color: #ececec;
+  --border-content-color: #eeeeee;
 }
 
 body {
@@ -12,7 +15,7 @@ body {
   font-size: 14px;
   /* line-height: 1.19; */
   letter-spacing: 0.03em;
-  background-color: var(--white-background-col);
+  background-color: var(--footer-txt-col);
   color: var(--primary-txt-col);
 }
 
@@ -254,7 +257,6 @@ img {
   text-align: center;
   color: var(--secondary-txt-col);
 }
-/*  */
 
 .footer {
   background-color: #2f303a;
@@ -279,22 +281,62 @@ img {
   margin-bottom: 9px;
 }
 
+/* ПОРТФОЛІО */
+
+.prt-filter-list {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .prt-box-subtitle {
-  margin-bottom: 10px;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .prt-btn {
   background-color: #f5f4fa;
   color: #212121;
   border: transparent; /* border: 1px; */
+  text-align: center;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .prt-btn:hover,
 .prt-btn:focus {
   background-color: var(--brand-txt-col);
   color: var(--white-background-col);
+}
+
+/* .prt-box-btn {
+  flex-basis: calc((100% - 60px) / 3);
+  margin: 15px;
+  background-color: var(--footer-txt-col);
+  border-bottom: 1px solid var(--border-content-color);
+} */
+
+.prt-box-btn:hover {
+  cursor: pointer;
+}
+
+.prt-box-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.prt-item-desc {
+  padding: 19px 23px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
