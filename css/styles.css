@@ -89,7 +89,8 @@ img {
 .footer-logo {
   font-family: Raleway;
   font-size: 26px;
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: calc(31 / 26);
   color: var(--brand-txt-col);
 }
 
@@ -109,7 +110,7 @@ img {
   gap: 50px;
 }
 .logo-word {
-  line-height: 1.7;
+  line-height: calc(31 / 26);
   color: #000000;
 }
 
