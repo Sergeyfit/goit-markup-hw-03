@@ -208,13 +208,13 @@ img {
 .skils-list {
   display: flex;
   gap: 30px;
-  flex-basis: 270px;
   align-items: center;
+  /* flex-basis: 270px; */
 }
 
-/* .skils-item {
+.skils-item {
   width: 270px;
-} */
+}
 
 .skils-subtitle {
   font-weight: 700;
