@@ -232,6 +232,7 @@ img {
 
 .section-gallery {
   padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .gallery-list {
